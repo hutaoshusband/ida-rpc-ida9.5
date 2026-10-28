@@ -33,7 +33,7 @@
     <TargetName>$(ProjectName)64</TargetName>
     <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\linker\</IntDir>
     <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
-    <LibraryPath>$(SolutionDir)idasdk94\src\lib\x64_win_64;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)idasdk95\src\lib\x64_win_64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
     <ClCompile>
@@ -47,7 +47,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <OpenMPSupport>false</OpenMPSupport>
-      <AdditionalIncludeDirectories>$(SolutionDir)idasdk94\src\include;./discord-rpc/win64-static/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)idasdk95\src\include;./discord-rpc/win64-static/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>
       </LanguageStandard>
     </ClCompile>

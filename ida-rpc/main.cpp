@@ -151,7 +151,7 @@ struct plugin_ctx_t : public plugmod_t
 
             if ( ida_utils::is_idb_loaded( ) && g_options.output_type >= ( int ) output_type::errors_and_results && g_options.output_enabled ) {
                 msg( "[%s] Version: %.2f\n", IDAP_name, AUTO_VERSION_RELEASE );
-                // IDA Update: 9.4 - IDA_SDK_VERSION reports 940, IDP_INTERFACE_VERSION stays 900 across 9.x
+                // IDA Update: 9.5 - no code changes needed; IDA_SDK_VERSION reports 950, IDP_INTERFACE_VERSION stays 900 across 9.x
                 msg( "[%s] Built for IDA SDK: %i\n", IDAP_name, IDA_SDK_VERSION );
                 msg( "[%s] Processor module: %s \n", IDAP_name, ida_utils::get_current_processor_module( ) );
                 msg( "[%s] Currently open file: %s\n", IDAP_name, ida_utils::get_current_filename( ) );
