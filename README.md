@@ -1,7 +1,7 @@
-# ida-rpc for IDA 9.4
+# ida-rpc for IDA 9.5
 
 ## About
-ida-rpc was a quick test plugin to see what changed in the 7.0 sdk, ~~subsequently it only supports IDA 7.x as of now~~ ~~updated to IDA 9.0,~~ ~~updated to IDA 9.1~~, updated to IDA 9.4
+ida-rpc was a quick test plugin to see what changed in the 7.0 sdk, ~~subsequently it only supports IDA 7.x as of now~~ ~~updated to IDA 9.0,~~ ~~updated to IDA 9.1~~, ~~updated to IDA 9.4~~ updated to IDA 9.5 (no code change tho)
 it allows for [discord rich presence](https://discordapp.com/rich-presence) to display information about the current IDA session
 
 ## Installation
